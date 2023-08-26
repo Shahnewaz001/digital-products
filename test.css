@@ -6,3 +6,24 @@
     color: crimson;
     cursor:url("../Lionel-Messi-Argentina-2022-FIFA-World-Cup_\(cropped\).jpg"),auto;
 }
+.container{
+   display: flex;
+   justify-content:center;
+   justify-content:space-around;
+   flex-direction:row;
+   height:500px;
+   align-items: center;
+   border: 1px solid gray;
+}
+.box{
+    padding:20px;
+    background-color:red;
+    width: 120px;
+    height: 110px;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color: blue;
+}

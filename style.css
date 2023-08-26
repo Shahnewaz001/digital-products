@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color:rgb(110, 87, 87);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.menus{
+    display:flex;
+}
+.logo-photo{
+    width: 120px;
+    padding: 20px;
+}
+.item{
+    margin-right:10px ;
+    font-size: 16px;
+}
+.item:hover{
+    color: blue;
+}
+.banner-img{
+    width: 250px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 200vh;
+    align-items: center;
+    color: white;
+    background-image: url("./download\ \(1\).jpeg"),
+    linear-gradient(45deg, rgba(0, 0, 0, 0.492),rgb(172, 15, 15))
+}
+.tittle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 18px;
+    margin: 5px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
